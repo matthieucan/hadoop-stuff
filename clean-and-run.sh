@@ -3,7 +3,14 @@
 # Cleans HDFS output, compiles a .java, packs it into a .jar, and runs
 # Hadoop with it, its arguments being input folder and output folder
 
+### NOTES ###
+
 # Hadoop bin/ folder must be in your $PATH
+
+# For instance, to run the WordCount example from the Hadoop
+# documentation, assuming HDFS is running, /user/penguin/wordcount is
+# a folder, and you have WordCount.java in wordcount/:
+# hadoop-stuff/clean-and-run.sh penguin wordcount WordCount
 
 # Usage: hadoop-stuff/clean-and-run.sh <username> <foldername> <classname>
 
